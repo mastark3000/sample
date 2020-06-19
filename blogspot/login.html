@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Login</title>
+
+	<style>
+		body{
+			background-color: skyblue;
+			font-size: 20px;
+			font-weight: bold;
+			padding-top: 60px;
+		}
+		h1{
+			/*border-bottom: 2px solid green;*/
+			color: white;
+			width: 50%;
+			display: inline-block;
+		}
+
+		div{
+			width: 500px;
+			height: 180px;
+			background-color: skyblue;
+			text-align: center;
+			margin: auto;
+		}
+		a{
+			text-decoration: none;
+		}
+		h1:hover{
+			color: green;
+			border-bottom: 2px solid green;
+		}
+		form{
+			/*border-radius: 25px 25px 0px 0px;*/
+			background-color: red;
+			/*background-image: url("img/ts.jpg");*/
+			background-size: 500px;
+			background-repeat: no-repeat; 
+			background: url('img/form.jpg');
+			color: white;
+		}
+		table{
+			padding: 0 80px;
+			border-color: transparent;
+		}
+		button{
+			margin-top: 5%;
+			padding: 2px auto;
+			width: 100%;
+			height: 35px;
+			font-size: 25px;
+			background-color: green;
+			color: black;
+			font-weight: bold;
+		}
+		button:hover{
+			background-color: green;
+			color: white;
+		}
+
+	</style>
+
+
+</head>
+<body>
+	<div>
+		<form>
+			<a href="Signup.html"><h1>SignUp</h1></a><a href="login.html"><h1>Login</h1></a>
+			<table>
+			<tr>	
+				<td>Username :</td>
+				<td><input type="email" name="Username" required="true"/></td>
+			</tr>
+			<tr>
+				<td>Password :</td>
+				<td><input type="Password" name="Password" required="true"/></td>
+			</tr>
+			</table>
+
+			<button>LogIn</button>
+
+		</form>
+	</div>
+</body>
+</html>
